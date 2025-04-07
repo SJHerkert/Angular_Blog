@@ -34,7 +34,7 @@ yarn-error.log
 # Miscellaneous
 blog/frontend/.angular/cache
 blog/backend/.angular/cache
-**/.angular/cache/
+**/.angular/cache/**
 .sass-cache/
 /connect.lock
 /coverage
