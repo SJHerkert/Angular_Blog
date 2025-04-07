@@ -10,7 +10,7 @@ As this repository is intended for learning purposes, the Obsidian notes are an 
 
 # App Parts
 - Node.js (latest stable version)
-- Angular CLI (latest)
+- Angular (latest) (CLI)
 - MongoDB
 
 # Features
@@ -18,11 +18,10 @@ User authentication(simple MongoDB based) and CRUD operations.
 Integration with a backend API for data retrieval and manipulation.
 UI components showcasing Angular Material.
 
-# Lacking
-This project is a learning resource and has not been finalized in terms of UI design or removal of unused parts. It serves as a foundation for understanding Angular, Node.js, and MongoDB, and provides a base for further development.
-
 # Purpose
 This repository is a learning resource aimed at exploring the integration of Angular, Node.js, MongoDB, and CRUD operations. It is not intended to be a ready-to-run application.
+
+It has not been finalized in terms of UI design or removal of unused parts. It serves as a foundation for understanding Angular, Node.js, and MongoDB, and provides a base for further development.
 
 # Notes
 To use this application, you would need to set up a MongoDB instance or use the in-memory database for testing.
