@@ -16,15 +16,15 @@ As this repository is intended for learning purposes, the Obsidian notes are an 
 # Features
 User authentication(simple MongoDB based) and CRUD operations.
 Integration with a backend API for data retrieval and manipulation.
-UI components showcasing Angular Material.
+UI components showcasing Angular Material using bootstrap for styling.
 
 # Purpose
 This repository is a learning resource aimed at exploring the integration of Angular, Node.js, MongoDB, and CRUD operations. It is not intended to be a ready-to-run application.
 
-It has not been finalized in terms of UI design or removal of unused parts. It serves as a foundation for understanding Angular, Node.js, and MongoDB, and provides a base for further development.
+It has not been finalized in terms of UI design or removal of unused parts. It serves as a foundation for understanding Angular, Node.js, and MongoDB, and therefore provides only a base for further development.
 
 # Notes
-To use this application, you would need to set up a MongoDB instance or use the in-memory database for testing.
+To use this application, you would need to set up a MongoDB instance with relevant tables.
 
 # Attribution
 This project is based on the tutorial and materials from the book: Getting Started with Angular by Victor Garcia, published by Apress.
