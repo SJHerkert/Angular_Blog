@@ -14,7 +14,7 @@ As this repository is intended for learning purposes, the Obsidian notes are an 
 - MongoDB
 
 # Features
-User authentication and CRUD operations.
+User authentication(simple MongoDB based) and CRUD operations.
 Integration with a backend API for data retrieval and manipulation.
 UI components showcasing Angular Material.
 
