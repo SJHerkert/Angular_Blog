@@ -1,0 +1,19 @@
+<div class="text-right" *ngIf="admin">     
+    <!--Unworking code <i title="Edit" (click)="setPostToEdit(post)" class="fas fa-edit" aria-hidden="true" style="cursor: pointer"></i>  -->
+    <!-- <i title="Delete" class="fas fa-trash-alt" aria-hidden="true" style="cursor: pointer"></i> -->
+    <span (click)="setPostToEdit(post)" style="cursor: pointer">
+        <i class="fas fa-edit" title="Edit"></i>
+    </span>
+    <span (click)="setPostToDelete(post)" style="cursor: pointer">
+      <i class="fas fa-trash-alt" title="Delete"></i>
+  </span>
+
+</div>
+
+<h2 class="blog-post-title">{{post.title}}</h2>
+
+<p class="blog-post-goal">January 1, 2014 by <a href="#">Mark</a> </p>
+
+<div class="text-white p-4 mb-3 bg-secondary rounded">  {{(post.text.length> 100) ? (post.text | slice:0:100) + '...' : ( post.text)}}</div>
+
+<p class="lead mb-0 border-bottom"> <a *ngIf="read" href="#"class="text-black-50 font-weight-bold">Continue reading ...</a> </p>
